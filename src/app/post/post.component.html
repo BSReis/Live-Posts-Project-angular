@@ -1,0 +1,12 @@
+<h2>{{ post?.title }}</h2>
+
+<div>
+  <p>
+    {{ post?.description }}
+  </p>
+  <img src="{{ post?.imagePath }}" class="img-responsive" />
+  <p>Auther: test@test.com</p>
+  <p>Date: 1 Jan 2022</p>
+  <button>Edit</button> |
+  <button (click)="onDelete()">Delete</button>
+</div>
